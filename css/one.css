@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+}
+a {
+    text-decoration: none;
+}
+a:hover, a:active {
+    text-decoration: none;
+}
+h1 {
+    font-size: 40px;
+    line-height: 2;
+}
+.main {
+    width: 100%;
+    text-align: center;
+}
+.main .header {
+    width: 100%;
+    line-height: 3;
+}
+.main .header .btn_start {
+    border-radius: 5px;
+    background-color: #F39191;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+.main .header .btn_start .a_start {
+    letter-spacing: 1px;
+    color: #fff;
+}
+.main .content {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #F39191;
+    width: 465px;
+    height: 465px;
+    margin: 0 auto;
+    position: relative
+}
+.main .content .grid-cell {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-color: #F4B3B3;
+    border-radius: 6px;
+    text-align: center;
+}
+.number-cell {
+    position: absolute;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 6px;
+}
